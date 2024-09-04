@@ -72,7 +72,7 @@ export const Add = ({ show, setShow, handleCreate }) => {
 
             <Form.Item>
               <Button className="w-full" type="primary" htmlType="submit">
-                Sin up
+                Create
               </Button>
             </Form.Item>
           </Form>
