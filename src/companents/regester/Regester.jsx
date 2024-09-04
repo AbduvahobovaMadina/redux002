@@ -1,4 +1,4 @@
-import Model from "../../pages/model/model";
+import Model from "../../pages/model/Model";
 import axios from "../../api/index";
 import { Button, Form, Input, message } from "antd";
 import { AiOutlineClose } from "react-icons/ai";

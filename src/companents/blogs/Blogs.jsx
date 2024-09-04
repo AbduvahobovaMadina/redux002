@@ -37,7 +37,7 @@ const Blogs = ({ data }) => {
  
   return (
     <div className="container mx-auto mt-8 mb-10">
-      <Button onClick={() => setShow(true)} className="mb-6">
+      <Button onClick={() => setShow(true)} className="mb-6 ">
         <p className="font-bold">Add</p>
       </Button>
       <div className="grid gap-4   grid-cols-1  lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2">

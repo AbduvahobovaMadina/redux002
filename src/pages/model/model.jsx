@@ -1,6 +1,4 @@
-import { Button, Input } from "antd";
 import React from "react";
-import { AiOutlineClose } from "react-icons/ai";
 const Model = ({ close, children }) => {
   return (
     <>

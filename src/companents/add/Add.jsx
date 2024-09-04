@@ -1,12 +1,12 @@
 import axios from "../../api/index";
-import Model from "../../pages/model/model";
+import Model from "../../pages/model/Model";
 import { Button, Form, Input } from "antd";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 import { useFetch } from "../hooks/useFetch";
 export const Add = ({ show, setShow, handleCreate }) => {
   const [reload, setReload] = useState(false);
-  const {} = useFetch("/blogs", { limit: 6 }, [reload]);
+  const {} = useFetch("/blogs", { limit: 8 }, [reload]);
   const handleLogin = (values) => {
     axios
       .post("/sign-up", values)

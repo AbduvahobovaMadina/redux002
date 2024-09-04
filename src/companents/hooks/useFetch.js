@@ -1,11 +1,9 @@
 import { useState, useEffect } from "react";
 import axios from "../../api/index";
-
 export const useFetch = (path, params, deps = []) => {
-  const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [data, setData] = useState(null);
   const [error, setError] = useState(null);
-
   useEffect(() => {
     setLoading(true);
     axios
