@@ -4,7 +4,7 @@ import axios from "../../api/index";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { Button, Form, Input, message } from "antd";
-import Regester from "../../companents/regester/regester";
+import Regester from "../../companents/regester/register";
 
 
 

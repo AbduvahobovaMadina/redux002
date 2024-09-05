@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "antd";
 import axios from "../../api/index";
-import { Add } from "../add/Add";
+import { Add } from "../add/add";
 
 const Blogs = ({ data }) => {
   const [show, setShow] = useState(false);

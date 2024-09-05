@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
-import Layout from "./companents/layout/Layout";
+import Layout from "./companents/layout/layout";
 import Home from "./pages/home/home.jsx";
-import Login from "./pages/login/Login";
-import Auth from "./pages/auth/Auth";
+import Login from "./pages/login/login";
+import Auth from "./pages/auth/auth";
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import axios from "../../api/index";
-import Model from "../../pages/model/Model";
+import Model from "../../pages/model/model";
 import { Button, Form, Input } from "antd";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
