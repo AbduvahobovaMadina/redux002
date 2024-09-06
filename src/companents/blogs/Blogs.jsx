@@ -48,6 +48,7 @@ const Blogs = ({ data }) => {
       <h3 className="text-xl font-bold">{blog.title}</h3>
       <p className="text-[16px] font-sans">{blog.desc}</p>
       <p className="bg-slate-300 p-2 rounded-md">Created by: {blog.userId.fname}</p>
+      <p className="text-end" >{new Date(blog.createdAt).toDateString()}</p>
       {
         profile?._id === blog.userId._id ?
         <Button className="bg-red-400 text-white" onClick={() => handlDelete(blog._id)}>Delete</Button>
